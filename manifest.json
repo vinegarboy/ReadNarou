@@ -2,12 +2,9 @@
     "name": "NarouSpeech",
     "version": "1.0",
     "description": "Can Speech and Download narou",
-    "default_locale": "ja_JP",
     "manifest_version": 2,
-    "content_scripts": [
-        {
-            "matches": [ "https://ncode.syosetu.com/n*/" ],
-            "js": [ "script.js" ]
-        }
-    ]
+    "content_scripts": [{
+        "matches": ["https://ncode.syosetu.com/n*/"],
+        "js": ["main.js"]
+    }]
 }
